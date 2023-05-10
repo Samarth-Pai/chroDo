@@ -4,7 +4,7 @@ from flask_session import Session
 import smtplib,random
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = "mongodb+srv://Samarth_Pai:samarthAtGM@cluster0.abe4k8u.mongodb.net/?retryWrites=true&w=majority"    
+app.config["MONGO_URI"] = "mongodb+srv://Samarth_Pai:samarthAtGM@cluster0.abe4k8u.mongodb.net/test"    
 app.config["SESSION_PERMANENT"] = True
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
