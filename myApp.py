@@ -4,7 +4,7 @@ from flask_session import Session
 import smtplib,random
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = "mongodb+srv://Samarth_Pai:samarthAtGM@cluster0.abe4k8u.mongodb.net/test"    
+app.config["MONGO_URI"] = "mongodb+srv://Samarth_Pai:samarthAtGM@cluster0.abe4k8u.mongodb.net/chroDo?retryWrites=true&w=majority"
 app.config["SESSION_PERMANENT"] = True
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
@@ -70,7 +70,7 @@ def homeSignup():
             userPassword = request.form.get("userPassword")
             confirmPassword = request.form.get("confirmPassword")
             userName = request.form.get("userName")
-            if client.find_one({"email":userEmail}) != {}:
+            if client.find_one({"email":userEmail}) is not None:
                 return render_template("emailExistErr.html",userEmail=userEmail,userPassword=userPassword,confirmPassword=confirmPassword,userName=userName)
             elif len(userPassword)<8:
                 return render_template("passwordLenError.html",file="signup.html",errorText = "Password length must be at least 8",userEmail=userEmail,userPassword=userPassword,confirmPassword=confirmPassword,userName=userName,sideTitle="chroDo")
