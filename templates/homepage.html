@@ -1,0 +1,46 @@
+{% extends "homeNav.html" %}
+{% block content %}
+<div class="container">
+<form method="POST">
+    <div class="mb-3" style="padding-top: 20px;">
+      <input type="text" class="form-control" id="enterTodo" placeholder="TODO title" name="todoTitle" value={{title}}>
+    </div>
+    {%block nullTitle%}{%endblock%}
+    <div class="form-floating"  style="padding-bottom: 15px;">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px; font-family:monospace" name="todoDesc"></textarea>
+        <label for="floatingTextarea2">TODO description</label>
+      </div>
+      {%block nullDesc%}{%endblock%}
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<div class="container", style="padding-top: 20px;">
+  <h1>
+    TODO
+  </h1>
+</div>
+  {% for i in todos %}
+  <div class="container" style="padding: 10px;">
+    <div class="card">
+      <div class="card-header clearfix">
+          <p class="float-start">{{i["title"]}}</p>
+        <div class="dropdown float-end">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{url_for('homeEditTodo',id=i['_id'])}}">Edit</a></li>
+            <li><a class="dropdown-item" href="{{url_for('homeDeleteTodo',id=i['_id'])}}">Delete</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card-body">
+          <p class="mb-0 float-start" style="white-space: pre-wrap; font-family: monospace">
+{{i["desc"]}}
+          </p>
+        
+      </div>
+    </div>
+</div>
+  {% endfor %}
+
+{% endblock %}

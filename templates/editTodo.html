@@ -1,0 +1,17 @@
+{%extends "navTemplate.html"%}
+{%block content%}
+<div class="container">
+<form method="POST">
+    <div class="mb-3" style="padding-top: 20px;">
+      <input type="text" class="form-control" id="enterTodo" placeholder="TODO title" name="todoTitle" value="{{title}}">
+    </div>
+    {%block nullTitle%}{%endblock%}
+    <div class="form-floating"  style="padding-bottom: 15px;">
+        <textarea class="form-control" id="floatingTextarea2" style="height: 100px; font-family:monospace" name="todoDesc">{{desc}}</textarea>
+        <label for="floatingTextarea2">TODO description</label>
+      </div>
+      {%block nullDesc%}{%endblock%}
+    <button type="submit" class="btn btn-primary">Update</button>
+  </form>
+</div>
+{%endblock%}

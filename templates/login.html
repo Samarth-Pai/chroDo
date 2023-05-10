@@ -1,0 +1,21 @@
+{% extends "navTemplate.html" %}
+{% block content %}
+  <div class="container">
+  <form method="POST">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input name="loginUserEmail" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value={{loginUserEmail}}>
+        {%block emailError%}{%endblock%}
+      </div>
+      
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input name="loginUserPassword" type="password" class="form-control" id="exampleInputPassword1" value={{loginUserPassword}}>
+        <div id="emailHelp" class="form-text">
+        {%block error%}{%endblock%}
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+{% endblock %}

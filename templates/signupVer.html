@@ -1,0 +1,24 @@
+{% extends "navTemplate.html" %}
+{% block content %}
+<div class="container">
+    <h1>
+        An OTP has been sent to {{ userEmail }}
+    </h1>
+    <form method="post">
+    <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <label for="inputPassword6" class="col-form-label">Enter OTP: </label>
+      </div>
+      <div class="col-auto">
+        <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline" name="userOtp">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary">
+          Submit
+        </button>
+      </div>
+    </div>
+    {% block otperror %}{% endblock %}
+    </form>
+  </div>
+{% endblock %}
