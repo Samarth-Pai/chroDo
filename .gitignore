@@ -1,2 +1,4 @@
 flask_session
 __pycache__
+node_modules
+.vercel
