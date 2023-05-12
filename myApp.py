@@ -4,14 +4,14 @@ from flask_session import Session
 import smtplib,random
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = "mongodb+srv://Samarth_Pai:samarthAtGM@cluster0.abe4k8u.mongodb.net/chroDo?retryWrites=true&w=majority"
-app.config["SESSION_PERMANENT"] = True
+app.config["MONGO_URI"] = "mongodb+srv://vercel-admin-user-645c358d41b20904e04a539c:B8EKw7G6Drh9GRuG@cluster0.abe4k8u.mongodb.net/chroDo?retryWrites=true&w=majority"
+app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 db = PyMongo(app).db
 client = db.loginData
 data = db.clientData
-miuiV = 13
+app.config["SESSION_MONGODB"] = db
 
 def mailer(fromm,passw,to,subject,msg):
     s = smtplib.SMTP("smtp.office365.com",587)
@@ -106,7 +106,7 @@ def homeEditTodo(id):
         return render_template("editTodo.html",title=todoTitle,desc=todoDesc)
     else:
         todoTitle,todoDesc=request.form["todoTitle"],request.form["todoDesc"]
-        done = data.find_one_and_update({"_id":ObjectId(id)},{"$set":{"title":todoTitle,"desc":todoDesc}})
+        data.find_one_and_update({"_id":ObjectId(id)},{"$set":{"title":todoTitle,"desc":todoDesc}})
         # Put something inc before update
         return redirect("/")
 
