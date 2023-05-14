@@ -27,12 +27,18 @@ def homePage():
     if request.method=="POST":
         title=request.form["todoTitle"]
         desc=request.form["todoDesc"]
-        todos = [i for i in data.find({"email":session["email"]})]
-        todos.reverse()
-        if title=="":return render_template("nullTitleErr.html",title=title,todos=todos,sideTitle=client.find_one({"email":session["email"]})["name"])
-        elif desc=="":return render_template("nullDescErr.html",title=title,todos=todos,sideTitle=client.find_one({"email":session["email"]})["name"])
+        if title=="":
+            todos = [i for i in data.find({"email":session["email"]})]
+            todos.reverse()
+            return render_template("nullTitleErr.html",title=title,todos=todos,sideTitle=client.find_one({"email":session["email"]})["name"])
+        elif desc=="":
+            todos = [i for i in data.find({"email":session["email"]})]
+            todos.reverse()
+            return render_template("nullDescErr.html",title=title,todos=todos,sideTitle=client.find_one({"email":session["email"]})["name"])
         else:
             data.insert_one({"email":session["email"],"title":title,"desc":desc.strip()})
+            todos = [i for i in data.find({"email":session["email"]})]
+            todos.reverse()
             return render_template("homepage.html",todos=todos,sideTitle=client.find_one({"email":session["email"]})["name"])
     else:   
         session.permanent = True
@@ -80,8 +86,10 @@ def homeSignup():
                 mailer("samarthpai9870@hotmail.com","samarth@GM",userEmail,"chroDo signup verification",f"Your OTP for chroDo web application is {signupPin}")
                 return render_template("signupVer.html",userEmail=userEmail)
         else:
-            if signupPin!=int(request.form.get("userOtp")):
-                return render_template("signupVerErr.html")
+            if not request.form.get("userOtp").isdigit():
+                return render_template("signupVerErr.html",userEmail=userEmail)
+            elif not signupPin==int(request.form.get("userOtp")):
+                return render_template("signupVerErr.html",userEmail=userEmail)
             else:
                 client.insert_one({
                     "name":userName,
