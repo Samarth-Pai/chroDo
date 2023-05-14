@@ -27,12 +27,12 @@ def homePage():
     if request.method=="POST":
         title=request.form["todoTitle"]
         desc=request.form["todoDesc"]
-        if title=="":return render_template("nullTitleErr.html",title=title)
-        elif desc=="":return render_template("nullDescErr.html",title=title)
+        todos = [i for i in data.find({"email":session["email"]})]
+        todos.reverse()
+        if title=="":return render_template("nullTitleErr.html",title=title,todos=todos,sideTitle=client.find_one({"email":session["email"]})["name"])
+        elif desc=="":return render_template("nullDescErr.html",title=title,todos=todos,sideTitle=client.find_one({"email":session["email"]})["name"])
         else:
             data.insert_one({"email":session["email"],"title":title,"desc":desc.strip()})
-            todos = [i for i in data.find({"email":session["email"]})]
-            todos.reverse()
             return render_template("homepage.html",todos=todos,sideTitle=client.find_one({"email":session["email"]})["name"])
     else:   
         session.permanent = True
