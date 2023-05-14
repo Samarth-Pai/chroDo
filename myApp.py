@@ -1,11 +1,11 @@
 from flask import Flask,render_template,request,session,url_for,redirect
 from flask_pymongo import PyMongo,ObjectId
 import smtplib,random
+from datetime import timedelta
 
 app = Flask(__name__)
 app.secret_key = "samarth@GM"
 app.config["MONGO_URI"] = "mongodb+srv://vercel-admin-user-645c358d41b20904e04a539c:B8EKw7G6Drh9GRuG@cluster0.abe4k8u.mongodb.net/chroDo?retryWrites=true&w=majority"
-app.config["SESSION_PERMANENT"] = True
 db = PyMongo(app).db
 client = db.loginData
 data = db.clientData
@@ -35,6 +35,7 @@ def homePage():
             todos.reverse()
             return render_template("homepage.html",todos=todos,sideTitle=client.find_one({"email":session["email"]})["name"])
     else:   
+        session.permanent = True
         if session.get("email"):
             todos = [i for i in data.find({"email":session["email"]})]
             todos.reverse()
