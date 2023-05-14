@@ -61,7 +61,7 @@ def homeLogin():
             return render_template("passwordLenError.html",file="login.html",errorText="Password is incorrect, please try again",loginUserEmail=loginUserEmail,loginUserPassword=loginUserPassword,sideTitle="chroDo")
         else:
             session['email']=loginUserEmail
-            return redirect("/")
+            return redirect(url_for("homePage"))
     else:
         return render_template("login.html",sideTitle="chroDo")
     
@@ -97,7 +97,7 @@ def homeSignup():
                     "password":userPassword
                 })
                 session["email"]=userEmail
-                return redirect("/")
+                return redirect(url_for("homePage"))
     else:
         verificationMode= False
         signupPin=0
@@ -114,16 +114,16 @@ def homeEditTodo(id):
         todoTitle,todoDesc=request.form["todoTitle"],request.form["todoDesc"]
         data.find_one_and_update({"_id":ObjectId(id)},{"$set":{"title":todoTitle,"desc":todoDesc}})
         # Put something inc before update
-        return redirect("/")
+        return redirect(url_for("homePage"))
 
 @app.route("/delete_todo/<id>")
 def homeDeleteTodo(id):
     data.find_one_and_delete({"_id":ObjectId(id)})
-    return redirect("/")
+    return redirect(url_for("homePage"))
 @app.route("/logout")
 def homeLogout():
     session["email"]=None
-    return redirect("/")
+    return redirect(url_for("homePage"))
 
 if __name__ == '__main__':
     app.run(debug=True)
