@@ -9,15 +9,14 @@ app.config["MONGO_URI"] = "mongodb+srv://vercel-admin-user-645c358d41b20904e04a5
 db = PyMongo(app).db
 client = db.loginData
 data = db.clientData
-
-def mailer(fromm,passw,to,subject,msg):
-    s = smtplib.SMTP("smtp.office365.com",587)
-    s.starttls()
-    print("Logging in...")
-    s.login(fromm,passw)
-    print("Login successfull.")
+s = smtplib.SMTP("smtp.office365.com",587)
+s.starttls()
+print("Logging in...")
+s.login("samarthpai9870@hotmail.com","samarth@GM")
+print("Login successfull.")
+def mailer(to,subject,msg):
     print("Sending email..")
-    s.sendmail(fromm,to,f"Subject: {subject}\n\n{msg}")
+    s.sendmail("samarthpai9870@hotmail.com",to,f"Subject: {subject}\n\n{msg}")
     print("Mail sent successfully")
     s.quit()
 
@@ -83,7 +82,7 @@ def homeSignup():
             else:
                 verificationMode=True
                 signupPin = random.randrange(100000,999999)
-                mailer("samarthpai9870@hotmail.com","samarth@GM",userEmail,"chroDo signup verification",f"Your OTP for chroDo web application is {signupPin}")
+                mailer(userEmail,"chroDo signup verification",f"Your OTP for chroDo web application is {signupPin}")
                 return render_template("signupVer.html",userEmail=userEmail)
         else:
             if not request.form.get("userOtp").isdigit():

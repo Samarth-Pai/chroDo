@@ -1,0 +1,1000 @@
+  999  apt --fix-broken install
+ 1000  sudo apt --fix-broken install
+ 1001  sudo apt install fio
+ 1002  sudo python kdiskmark
+ 1003  sudo apt install jmtpfs mtp-tools libmtp-runtime
+ 1004  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1005  clear
+ 1006  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1007  cd aoc2022/day09
+ 1008  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1009  python test.py
+ 1010  clear
+ 1011  python test.py
+ 1012  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1013  clear
+ 1014  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1015  clear
+ 1016  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1017  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py/
+ 1018  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1019  python part3.py
+ 1020  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1021  clear
+ 1022  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1023  clear
+ 1024  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1025  python test.py
+ 1026  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1027  clear
+ 1028  /usr/bin/python /home/samarth/lol/aoc2022/day09/part2.py
+ 1029  cd aoc2022/day10
+ 1030  python part1.py 
+ 1031  python c,py
+ 1032  python c.py
+ 1033  python c,py
+ 1034  python part1.py 
+ 1035  python c.py
+ 1036  python part1.py 
+ 1037  python c.py
+ 1038  python part1.py 
+ 1039  python c.py
+ 1040  python part1.py 
+ 1041  python c.py
+ 1042  python part1.py 
+ 1043  python c.py
+ 1044  python part1.py 
+ 1045  python c.py
+ 1046  python part1.py 
+ 1047  python c.py
+ 1048  python part1.py 
+ 1049  python c.py
+ 1050  python part1.py 
+ 1051  python c.py
+ 1052  python part1.py 
+ 1053  python c.py
+ 1054  python
+ 1055  python c.py
+ 1056  python
+ 1057  python c.py
+ 1058  python calculator.py 
+ 1059  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1060  cd aoc2022/day10
+ 1061  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1062  cp part1.py part2.py
+ 1063  python part1.py
+ 1064  python
+ 1065  python part2.py
+ 1066  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1067  python part2.py
+ 1068  python
+ 1069  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1070  python part2.py
+ 1071  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1072  python part2.py
+ 1073  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1074  python part2.py
+ 1075  python part1.py
+ 1076  python part2.py
+ 1077  python part1.py
+ 1078  python part2.py
+ 1079  clear
+ 1080  python part2.py
+ 1081  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1082  python part2.py
+ 1083  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1084  python part2.py
+ 1085  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1086  python part2.py
+ 1087  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1088  python
+ 1089  python part2.py
+ 1090  /usr/bin/python /home/samarth/lol/aoc2022/day10/c.py
+ 1091  python part2.py
+ 1092  python part1.py
+ 1093  python c.py
+ 1094  python part1.py
+ 1095  clear
+ 1096  python part1.py
+ 1097  python part2.py
+ 1098  python c.py
+ 1099  python part2.py
+ 1100  python
+ 1101  python part2.py
+ 1102  /usr/bin/python /home/samarth/lol/aoc2022/day11/part1.py
+ 1103  cd aoc2022/day11
+ 1104  /usr/bin/python /home/samarth/lol/aoc2022/day11/part1.py
+ 1105  sudo nala upgrade
+ 1106  cd ..
+ 1107  cd day01
+ 1108  python part1.py
+ 1109  python simp.py 
+ 1110  /usr/bin/python /home/samarth/lol/photoCloud/personalInfoDBMS.py
+ 1111  /usr/bin/python /home/samarth/lol/stickPriceAnalysis/singleAnalys.py
+ 1112  python main.py 
+ 1113  cat randim.txt 
+ 1114  python part1.py
+ 1115  cd aoc2022/day11
+ 1116  python part1.py
+ 1117  /usr/bin/python /home/samarth/lol/photoCloud/personalInfoDBMS.py
+ 1118  /usr/bin/python /home/samarth/lol/photoCloud/personalInfoCpy.py
+ 1119  python personalInfoDBMS.py 
+ 1120  exit
+ 1121  cd aoc2022/
+ 1122  cd day11
+ 1123  python part1,py
+ 1124  python part1.py
+ 1125  python
+ 1126  python part1.py
+ 1127  python
+ 1128  python part1.py
+ 1129  /usr/bin/python /home/samarth/lol/gtkTest.py
+ 1130  pip install customtkinter
+ 1131  python customTkTest.py 
+ 1132  python TkTest.py 
+ 1133  python customTkTest.py 
+ 1134  python TkTest.py 
+ 1135  python customTkTest.py 
+ 1136  cd aoc2022/day11
+ 1137  python part1.py
+ 1138  python
+ 1139  python part1.py
+ 1140  cp part1.py part2.py
+ 1141  python part1.py
+ 1142  cp part1.py part2.py
+ 1143  python part2.py
+ 1144  sudo nala upgrade
+ 1145  sudo nala update
+ 1146  sudo nala upgrade
+ 1147  exit
+ 1148  shutdown -f
+ 1149  shutdown -c
+ 1150  systemctl -h
+ 1151  systemctl -h now
+ 1152  systemctl -r
+ 1153  sudo shutdown -r
+ 1154  sudo shutdown -r now
+ 1155  sudo systemctl halt
+ 1156  sudo nala upgrade
+ 1157  python
+ 1158  python part2.py
+ 1159  cd aoc2022/day11
+ 1160  python part2.pyy
+ 1161  python c.py
+ 1162  python c.py test.txt\
+ 1163  python c.py test.txt
+ 1164  sudo nala update
+ 1165  sudo nala list --upgradable
+ 1166  sudo apt list
+ 1167  sudo apt list --installed
+ 1168  sudo apt list --upgradable
+ 1169  sudo nala list --upgradable
+ 1170  sudo apt install --upgradable
+ 1171  sudo apt update --install --upgradable
+ 1172  sudo apt update --install
+ 1173  sudo apt update -install
+ 1174  sudo apt upgrade
+ 1175  sudo nano /etc/default/GRUB
+ 1176  sudo nano /etc/default/grub
+ 1177  sudo update-grub
+ 1178  sudo apt update
+ 1179  sudo apt list --upgradable
+ 1180  sudo apt-get upgrade
+ 1181  sudo apt autoremove
+ 1182  shutdown
+ 1183  python
+ 1184  cd guiStopwatch/
+ 1185  python timer.py
+ 1186  fdisk -l
+ 1187  sudo fdisk -l
+ 1188  dd if=/dev/sdb of=/dev/sda bs=64K conv=noerror,sync
+ 1189  sudo dd if=/dev/sdb of=/dev/sda bs=64K conv=noerror,sync
+ 1190  fdisk -l
+ 1191  sudo fdisk -l
+ 1192  sudo dd if=/dev/sdb of=/dev/sda bs=64K conv=noerror,sync
+ 1193  fdisk -l
+ 1194  sudo fdisk -l
+ 1195  /usr/bin/python /home/samarth/lol/ultimatePython/ex2.py
+ 1196  python
+ 1197  /usr/bin/python /home/samarth/lol/ultimatePython/ex2.py
+ 1198  python
+ 1199  /usr/bin/python /home/samarth/lol/ultimatePython/ex2.py
+ 1200  python main.py 
+ 1201  cd notepadGui/
+ 1202  python main.py 
+ 1203  /usr/bin/python /home/samarth/lol/notepadGui/main.py
+ 1204  cd notepadGui/
+ 1205  python main.py 
+ 1206  python
+ 1207  python main.py 
+ 1208  kde
+ 1209  connect
+ 1210  kde
+ 1211  cd Downloads/
+ 1212  ls
+ 1213  gnome-extensions install --force gsconnect@andyholmes.github.io.zip
+ 1214  gnome-extensions install --force 
+ 1215  gnome-extensions install --force /home/samarth/Donl
+ 1216  gnome-extensions install --force /home/samarth/Downloads/
+ 1217  gnome-extensions install --force /home/samarth/Downloads/gsconnect@andyholmes.github.io.zip 
+ 1218  gnome-extensions install --force /home/samarth/Downloads/gsconnect@andyholmes.github.io.zip
+ 1219  sudo gnome-extensions install --force /home/samarth/Downloads/gsconnect@andyholmes.github.io.zip
+ 1220  gsconnect
+ 1221  sudo nala install brasero
+ 1222  sudo nala update
+ 1223  sudo apt help
+ 1224  sudo apt autoremove
+ 1225  sudo dpkg --configure -a
+ 1226  sudo nala install brasero
+ 1227  sudo nala autoremove
+ 1228  sudo nala install brasero
+ 1229  ./VentoyWorker.sh
+ 1230  sudo apt purge wine
+ 1231  sudo nal search wine
+ 1232  sudo nala search wine
+ 1233  sudo nala list 
+ 1234  sudo nala purge wine64
+ 1235  sudo nala list --installed
+ 1236  sudo nala purge wine-devel
+ 1237  cd notepadGui/
+ 1238  python main.py 
+ 1239  python
+ 1240  python main.py 
+ 1241  pyinstaller main.py --onefile
+ 1242  cd notepadGui/
+ 1243  python main.py 
+ 1244  pyinstaller main.py --onefile
+ 1245  cd notepadGui/
+ 1246  git status
+ 1247  git add .
+ 1248  git commit -m "version1"
+ 1249  git remote add origin https://github.com/Samarth-Pai/chroNotes.git
+ 1250  git remote -v
+ 1251  git push origin main
+ 1252  cd lol/notepadGui/
+ 1253  git branch -b
+ 1254  git branch -a
+ 1255  git checkout -b master
+ 1256  git push origin master
+ 1257  git config credential.helper store
+ 1258  git push https://github.com/Samarth-Pai/chroNotes.git
+ 1259  ls
+ 1260  ls -a
+ 1261  ls
+ 1262  pyinstaller --noconsole --onefile --icon=chro.jpg
+ 1263  pyinstaller --noconsole --onefile --icon=chro.jpg chroNotes.py 
+ 1264  la
+ 1265  ls
+ 1266  l
+ 1267  lp
+ 1268  pyinstaller --noconsole --onefile --icon=chro.ico chroNotes.py
+ 1269  pyinstaller --noconsole --onefile --i="chro.ico" chroNotes.py
+ 1270  pyinstaller --noconsole --onefile --i="chro.ico" --windowed chroNotes.py
+ 1271  sudo nala --help
+ 1272  sudo nala update
+ 1273  sudo nala list --upgradable
+ 1274  sudo nala fetch
+ 1275  sudo nala update
+ 1276  sudo nala list
+ 1277  sudo nala list --upgradable
+ 1278  sudo nala update
+ 1279  sudo apt purge nala
+ 1280  sudo apt install nala
+ 1281  sudo nala update
+ 1282  ps aux
+ 1283  ps aux | grep '[a]pt'
+ 1284  restart
+ 1285  reboot
+ 1286  sudo nala list --upgradabale
+ 1287  sudo nala list --upgradable
+ 1288  sudo nala update
+ 1289  sudo nala update
+ 1290  sudo fuser -vik -TERM /var/lib/apt/lists/lock
+ 1291  sudo nala update
+ 1292  python calculator.py 
+ 1293  sudo apt update
+ 1294  sudo fuser -vik -TERM /var/lib/apt/lists/lock
+ 1295  sudo apt update
+ 1296  software-properties-gtk -h
+ 1297  sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+ 1298  sudo software-properties-gtk
+ 1299  sudo apt install python3-apt
+ 1300  chmod a+x aptsources-cleanup.pyz
+ 1301  cd Downloads/
+ 1302  chmod a+x aptsources-cleanup.pyz
+ 1303  sudo ./aptsources-cleanup.pyz
+ 1304  sudo apt update
+ 1305  sudo nala update
+ 1306  sudo nala  list --upgradable
+ 1307  sudo apt autoremove
+ 1308  sudo apt list
+ 1309  deb mirror
+ 1310  sudo apt help
+ 1311  sudo apt-get help
+ 1312  sudo apt help
+ 1313  sudo apt-get help
+ 1314  sudo apt-get dist-upgrade
+ 1315  sudo apt update
+ 1316  sudo apt help
+ 1317  sudo apt satisfy
+ 1318  sudo apt edit-sources
+ 1319  reboot
+ 1320  LIBGL_ALWAYS_SOFTWARE=1 obs
+ 1321  cmod +x *
+ 1322  chmod +x *
+ 1323  sudo chmod +x *
+ 1324  sudo chmod a+x *
+ 1325  com.visualstudio.code
+ 1326  python personalInfoCpy.py 
+ 1327  python personalInfoDBMS.py 
+ 1328  mongodb
+ 1329  mongo
+ 1330  python personalInfoDBMS.py 
+ 1331  python personalInfoDBMS.py
+ 1332  python personalInfoCpy.py 
+ 1333  python personalInfoDBMS.py
+ 1334  python personalInfoCpy.py 
+ 1335  /usr/bin/python /home/samarth/lol/ultimatePython/kbc.py
+ 1336  neofetch
+ 1337  /usr/bin/python /home/samarth/lol/ultimatePython/kbc.py
+ 1338  sudo apt update
+ 1339  /usr/bin/python /home/samarth/lol/ultimatePython/kbc.py
+ 1340  /usr/bin/python
+ 1341  /usr/bin/python /home/samarth/lol/ultimatePython/kbc.py
+ 1342  ./chroQuiz 
+ 1343  pyinstaller --onefile -F chroQuiz.py --collect-all customtkinter
+ 1344  pyinstaller --onefile --windowed --clean --icon=chroQuiz.ico chroQuiz.py --collect-all customtkinter
+ 1345  python chroQuiz.py 
+ 1346  pip install opencv
+ 1347  sudo nala search opencv
+ 1348  sudo nala install python3-opencv
+ 1349  cd vid
+ 1350  python tool.py
+ 1351  sudo nala show python3-opencv
+ 1352  sudo nala install python3-opencv 4.5.5.62
+ 1353  sudo nala install python3-opencv=4.5.5.62
+ 1354  sudo nala install python3-opencv=4.5
+ 1355  export
+ 1356  python -v
+ 1357  apt-cache madison python3-opencv
+ 1358  apt-cache show python3-opencv
+ 1359  sudo apt search opencv
+ 1360  pip install pencv-python
+ 1361  pip install opencv-python
+ 1362  sudo apt purge python3-opencv
+ 1363  pip install opencv-python3
+ 1364  pip install opencv-python
+ 1365  python tool.py
+ 1366  python
+ 1367  python tool.py
+ 1368  pip install -U     -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-16.04     wxPython
+ 1369  python tool.py
+ 1370  pip install wxPython
+ 1371  pip install attrdict
+ 1372  pip install wxPython
+ 1373  pip install -U     -fhttps://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-22.04/wxPython-4.2.0-cp310-cp310-linux_x86_64.whl
+ 1374  pip install -U     -fhttps://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-22.04 wxPython
+ 1375  /usr/bin/python /home/samarth/lol/chroUtility/util.py
+ 1376  sudo apt search droidcam
+ 1377  sudo apt search droid
+ 1378  cd /tmp/
+ 1379  wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_1.8.2.zip
+ 1380  # sha1sum: d1038e6d62cac6f60b0dd8caa8d5849c79065a7b
+ 1381  unzip droidcam_latest.zip -d droidcam
+ 1382  cd droidcam && sudo ./install-client
+ 1383  sudo apt install linux-headers-`uname -r` gcc make
+ 1384  sudo ./install-video
+ 1385  sudo ./install-sound
+ 1386  pacmd load-module module-alsa-source device=hw:Loopback,1,0
+ 1387  cd chroUtility/
+ 1388  python util.py
+ 1389  python fileOpen.py 
+ 1390  python util.py
+ 1391  /usr/bin/python /home/samarth/lol/chroUtility/util.py
+ 1392  sudo nala install chrome-gnome-shell
+ 1393  sudo apt install gnome-browser-connector
+ 1394  sudo apt purge chrome-gnome-extensions
+ 1395  sudo apt purge chrome-gnome-shell
+ 1396  sudo apt install chrome-gnome-shell
+ 1397  sudo apt search python
+ 1398  sudo apt search python3
+ 1399  sudo apt list --upgradable
+ 1400  sudo apt install python --upgrade
+ 1401  sudo apt install python3 --upgrade
+ 1402  sudo apt install python3
+ 1403  python3
+ 1404  python3.11
+ 1405  sudo nala install python3
+ 1406  sudo nala search python3
+ 1407  sudo nala search python3.11
+ 1408  python3.11 -m pip list
+ 1409  python3 -m pip list
+ 1410  python util.py
+ 1411  cd chroUtility/
+ 1412  python util.py
+ 1413  /usr/bin/python
+ 1414  cd chroUtility/
+ 1415  python util.py
+ 1416  sudo nala search gstreamer
+ 1417  sudo apt search python3.11
+ 1418  sudo apt fetch
+ 1419  sudo apt help
+ 1420  sudo apt edit-sources 
+ 1421  sudo update-alternatives --config python3
+ 1422  sudo apt update && sudo apt upgrade -y
+ 1423  sudo apt list --upgradable
+ 1424  python3.10-minimal
+ 1425  python3.10
+ 1426  sudo add-apt-repository ppa:deadsnakes/ppa
+ 1427  sudo apt update
+ 1428  sudo nala fetch
+ 1429  sudo apt update
+ 1430  sudo nala fetch 
+ 1431  sudo apt purge nala
+ 1432  cd chroUtility/
+ 1433  python util.py
+ 1434  sudo apt-get
+ 1435  sudo nala fetch
+ 1436  sudo apt purge nala
+ 1437  sudo nala update
+ 1438  sudo dpkg --remove --force-all libkf5bookmarks-data
+ 1439  sudo apt purge nala
+ 1440  sudo apt updae
+ 1441  sudo apt update
+ 1442  cat /etc/apt/sources.list
+ 1443  gnome-text-editor /etc/apt/sources.list
+ 1444  python util.py
+ 1445  python
+ 1446  python util.py
+ 1447  python
+ 1448  python util.py
+ 1449  sudo apt install ffmpeg
+ 1450  python util.py
+ 1451  python testUtil.py 
+ 1452  python util.py
+ 1453  pip install vidgear
+ 1454  python util.py
+ 1455  sudo apt help
+ 1456  sudo apt satisfy
+ 1457  cd chroUtility/
+ 1458  python util.py
+ 1459  conda
+ 1460  sudo apt update
+ 1461  sudo apt search conda
+ 1462  sudo apt search python-conda
+ 1463  sudo apt search python
+ 1464  sudo apt-get update
+ 1465  python util.py
+ 1466  cd chroUtility/
+ 1467  python util.py
+ 1468  sh Miniconda3-py310_23.1.0-1-Linux-x86_64.sh 
+ 1469  conda
+ 1470  conda 
+ 1471  conda config
+ 1472  miniconda
+ 1473  conda config
+ 1474  conda
+ 1475  conda install
+ 1476  conda
+ 1477  conda list opencv
+ 1478  pip uninstall opencv-python
+ 1479  sudo apt update
+ 1480  sudo apt list --upgradable
+ 1481  sudo apt 
+ 1482  ls
+ 1483  conda
+ 1484  conda install -c conda-forge python
+ 1485  python util.py
+ 1486  python -v
+ 1487  python --v
+ 1488  python -version
+ 1489  python 
+ 1490  conda list
+ 1491  conda install --channel https://conda.anaconda.orh/menpo opencv3
+ 1492  conda install --channel https://conda.anaconda.org/menpo opencv3
+ 1493  conda install -c menpo opencv
+ 1494  s
+ 1495  conda install -c menpo opencv
+ 1496  conda install -c menpo icu
+ 1497  conda install -c menpo opencv
+ 1498  pip list
+ 1499  python util.py
+ 1500  pip install pillow
+ 1501  python util.py
+ 1502  conda list
+ 1503  pip list
+ 1504  python
+ 1505  /usr/bin/python /home/samarth/lol/chroUtility/util.py
+ 1506  pip install opencv-python
+ 1507  ls
+ 1508  pwd
+ 1509  cd miniconda3/
+ 1510  pwd
+ 1511  cd ..
+ 1512  conda deactivate
+ 1513  python
+ 1514  conda
+ 1515  conda list
+ 1516  conda env list
+ 1517  conda env remove -n base
+ 1518  conda env remove -p /home/samarth/miniconda3
+ 1519  exit
+ 1520  conda config --set auto_activate_base false
+ 1521  conda env remove -p /home/samarth/miniconda3
+ 1522  conda deactivate
+ 1523  conda env remove -p /home/samarth/miniconda3
+ 1524  conda remove -n base --all
+ 1525  conda deactivate
+ 1526  conda remove -n base --all
+ 1527  conda env remove -p /home/samarth/miniconda3
+ 1528  conda -h
+ 1529  conda deactivate -h
+ 1530  conda deactivate -f
+ 1531  conda deactivate
+ 1532  sudo conda deactivate
+ 1533  conda deactivate
+ 1534  conda env remove -p /home/samarth/miniconda3
+ 1535  conda
+ 1536  pip uninstall conda
+ 1537  conda
+ 1538  export
+ 1539  sudo apt list
+ 1540  sudo apt list --installed
+ 1541  bashrx
+ 1542  bashrc
+ 1543  ls
+ 1544  pip install ffmpeg
+ 1545  cd chroUtility/
+ 1546  python util.py
+ 1547  pip install opencv-python
+ 1548  python util.py
+ 1549  pip install moviepy
+ 1550  python util.py
+ 1551  pip install moviepy
+ 1552  python util.py
+ 1553  python miui.py 
+ 1554  python util.py
+ 1555  sudo apt update
+ 1556  sudo apt install software-properties-common
+ 1557  sudo add-apt-repository ppa:deadsnakes/ppa
+ 1558  sudo apt-secure
+ 1559  sudo apt-secure(8)
+ 1560  sudo add-apt-repository ppa:deadsnakes/ppa
+ 1561  sudo add-apt-repository ppa:fkrull/deadsnakes
+ 1562  sudo apt update
+ 1563  sudo apt search python3.11
+ 1564  sudo apt install python3
+ 1565  python3
+ 1566  sudo apt update
+ 1567  sudo do-release-upgrade
+ 1568  sudo apt-get update
+ 1569  cp /etc/apt/sources.list /etc/apt/sources.list.backup
+ 1570  sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+ 1571  sudo gnome-text-editor /etc/apt/sources.list
+ 1572  sudo cat /etc/apt/sources/list
+ 1573  sudo cat /etc/apt/sources.list
+ 1574  sudo apt-update
+ 1575  sudo apt-get update
+ 1576  sudo nala fetch
+ 1577  sudo apt install nala
+ 1578  sudo nala fetch
+ 1579  sudo apt update
+ 1580  sudo gnome-text-editor /etc/apt/sources.list
+ 1581  sudo gnome-text-editor /etc/apt/sources.list.d/nala-sources.list
+ 1582  sudo nautilus
+ 1583  cd /etc/apt/sources.list.d
+ 1584  sudo rm nala*
+ 1585  sudo nala fetch
+ 1586  sudo apt update
+ 1587  sudo apt purge nala
+ 1588  sudo apt update
+ 1589  sudo apt install python
+ 1590  sudo apt install python3
+ 1591  sudo apt list --upgradable
+ 1592  python util.py
+ 1593  python
+ 1594  python util.py
+ 1595  python util.py\
+ 1596  python util.py
+ 1597  sudo gnome-text-editor /etc/default/grub
+ 1598  sudo grub-set-default 0
+ 1599  sudo update-grub
+ 1600  cd /
+ 1601  ls
+ 1602  cd dev
+ 1603  ls
+ 1604  cd sdb3
+ 1605  cd sda3
+ 1606  sudo nala update
+ 1607  sudo apt update
+ 1608  sudo apt list --upgradable
+ 1609  sudo apt upgrade
+ 1610  sudo apt list --upgradable
+ 1611  sudo apt install --upgradable
+ 1612  sudo apt upgrade
+ 1613  sudo apt autoremove
+ 1614  sudo apt install python3
+ 1615  python util.py
+ 1616  sudo add-apt-repository ppa:deadsnakes/ppa
+ 1617  sudo apt update
+ 1618  cd Downloads/
+ 1619  pip install Python-3.11.3.tar.xz 
+ 1620  sudo apt install wget build-essential libreadline-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
+ 1621  python3.11
+ 1622  sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.10 110
+ 1623  sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.11 100
+ 1624  python
+ 1625  pip
+ 1626  python3.10 -m pip install pipreqs
+ 1627  cd lol/chroUtility/
+ 1628  ls
+ 1629  python3.10 -m pipreqs.pipreqs util.py 
+ 1630  python3.10 -m pipreqs.pipreqs
+ 1631  ls
+ 1632  cat requirements.txt 
+ 1633  pip install -r requirements.txt 
+ 1634  pip install --upgrade pip
+ 1635  pip list
+ 1636  ./util
+ 1637  python util.pyw
+ 1638  sudo apt dist-upgrade
+ 1639  ls
+ 1640  python util.pyw
+ 1641  sudo apt install nginx
+ 1642  cd lol
+ 1643  ls
+ 1644  mkdir flaskApp
+ 1645  cd flaskApp
+ 1646  pip install virtualenv
+ 1647  virtualenv flaskEnv
+ 1648  python
+ 1649  ls
+ 1650  cd flaskEnv
+ 1651  ls
+ 1652  cd ..
+ 1653  cd flaskEnv/bin/
+ 1654  ls
+ 1655  ./activate
+ 1656  sudo ./activate
+ 1657  sudo activate
+ 1658  sudo ./activate
+ 1659  sudo
+ 1660  cd ..
+ 1661  source flaskEnv/bin/activate
+ 1662  ls
+ 1663  python
+ 1664  ls
+ 1665  pip3 install flask gunicorn
+ 1666  nano myApp.py
+ 1667  gunicorn --bind 0.0.0.0:5000 wsgi:app
+ 1668  nano wsgi.py
+ 1669  gunicorn --bind 0.0.0.0:5000 wsgi:app
+ 1670  deactivate
+ 1671  activate
+ 1672  source flaskEnv/bin/activate
+ 1673  gunicorn --bind 0.0.0.0:5000 wsgi:app
+ 1674  deactivate
+ 1675  mongo
+ 1676  mongodb
+ 1677  mongod
+ 1678  mongo --version
+ 1679  mongod --version
+ 1680  sudo apt show python
+ 1681  pip install flask
+ 1682  cd /usr/lib/python3.11
+ 1683  ls
+ 1684  rm EXTERNALLY-MANAGED 
+ 1685  sudo rm EXTERNALLY-MANAGED 
+ 1686  pip --break-system-packages
+ 1687  sudo nano ~/.config/pip/pip.conf
+ 1688  pip install flask
+ 1689  pip install --upgrade pip
+ 1690  python
+ 1691  ls
+ 1692  dir
+ 1693  python
+ 1694  cd lol/flaskApp/
+ 1695  exit
+ 1696  source flaskEnv/bin/activate
+ 1697  python 
+ 1698  ls
+ 1699  python myApp.py
+ 1700  deactivate
+ 1701  exit
+ 1702  mongod
+ 1703  sudo service mongod stop
+ 1704  sudo apt-get purge mongodb-org*
+ 1705  wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+ 1706  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+ 1707  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+ 1708  sudo apt-get update
+ 1709  sudo apt-get install -y mongodb-org=5.0.7 mongodb-org-database=5.0.7 mongodb-org-server=5.0.7 mongodb-org-shell=5.0.7 mongodb-org-mongos=5.0.7 mongodb-org-tools=5.0.7
+ 1710  sudo apt search mongo
+ 1711  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+ 1712  sudo apt-get install -y mongodb-org=5.0.7 mongodb-org-database=5.0.7 mongodb-org-server=5.0.7 mongodb-org-shell=5.0.7 mongodb-org-mongos=5.0.7 mongodb-org-tools=5.0.7
+ 1713  sudo apt search mongo
+ 1714  sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+ 1715  sudo apt search mongo
+ 1716  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+ 1717  sudo apt search mongo
+ 1718  sudo apt-get install -y mongodb-org mongodb-org-database mongodb-org-server mongodb-org-shell mongodb-org-mongos mongodb-org-tools
+ 1719  mongo
+ 1720  sudo apt-get install gnupg
+ 1721  curl -fsSL https://pgp.mongodb.com/server-4.4.asc |    sudo gpg -o /usr/share/keyrings/mongodb-server-4.4.gpg    --dearmor
+ 1722  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-4.4.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+ 1723  sudo apt-get update
+ 1724  sudo apt-get install -y mongodb-org
+ 1725  echo "mongodb-org hold" | sudo dpkg --set-selections
+ 1726  echo "mongodb-org-server hold" | sudo dpkg --set-selections
+ 1727  echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+ 1728  echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+ 1729  echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+ 1730  sudo systemctl start mongod
+ 1731  sudo systemctl daemon-reload
+ 1732  sudo systemctl start mongod
+ 1733  sudo systemctl status mongod
+ 1734  mongo
+ 1735  mongod
+ 1736  actenv
+ 1737  actenv asdf
+ 1738  bash
+ 1739  actenv
+ 1740  actenv sdf
+ 1741  actenv
+ 1742  asd
+ 1743  bash
+ 1744  LS
+ 1745  env
+ 1746  actenv
+ 1747  bashrc
+ 1748  cd ..
+ 1749  cd /
+ 1750  ls
+ 1751  cd bin
+ 1752  cd ..
+ 1753  cd etc
+ 1754  ls
+ 1755  sudo nano bash.bashrc
+ 1756  cd ..
+ 1757  ls
+ 1758  cd usr
+ 1759  ;s
+ 1760  ls
+ 1761  cd bin
+ 1762  ls
+ 1763  cd ..
+ 1764  ls
+ 1765  cd ..
+ 1766  l;s
+ 1767  ls
+ 1768  cd
+ 1769  ls
+ 1770  sudo code .bashrc
+ 1771  sudo code .bashrc --no-sandbox
+ 1772  sudo code .bashrc --user-data-dir
+ 1773  sudo code .bashrc --user-data-dir /home
+ 1774  sudo gnome-text-editor .bashrc
+ 1775  exit
+ 1776  mongo
+ 1777  mongod
+ 1778  sudo apt-get
+ 1779  sudo apt-get update
+ 1780  sudo apt-get install apache -y
+ 1781  sudo apt-get install apache2 -y
+ 1782  ls
+ 1783  hostname -i
+ 1784  sudo ufw allow 'Apache'
+ 1785  sudo ufw app list
+ 1786  apache2 -v
+ 1787  sudo mkdir /var/www/host_example
+ 1788  sudo chown -R $current_user:$current_user /var/www/host_example
+ 1789  sudo chmod -R 755 /var/www/host_example
+ 1790  vim
+ 1791  sudo apt install vim
+ 1792  sudo vim
+ 1793  ls
+ 1794  google-chrome index.html
+ 1795  sudo nano index.html
+ 1796  sudo vim /var/www/host_example/html/content.html 
+ 1797  ls
+ 1798  cd /var/www/host_example/html
+ 1799  cd /var/www/host_example
+ 1800  ls
+ 1801  mdir html
+ 1802  mkdir html
+ 1803  sudo mkdir html
+ 1804  ls
+ 1805  cd html
+ 1806  la
+ 1807  ls
+ 1808  l
+ 1809  lk
+ 1810  sudo nano content.html
+ 1811  la
+ 1812  l
+ 1813  ls
+ 1814  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1815  sudo a2ensite host_example.conf
+ 1816  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1817  sudo nano /etc/apache2/sites-available/host_example.conf
+ 1818  sudo a2ensite host_example.conf
+ 1819  sudo systemctl reload apache2
+ 1820  sudo systemctl start apache2
+ 1821  systemctl startus apache2.service
+ 1822  sudo systemctl startus apache2.service
+ 1823  sudo systemctl enable apache2.service
+ 1824  sudo systemctl startus apache2.service
+ 1825  journalctl -xeu apache2.service
+ 1826  sudo systemctl status apache2.service
+ 1827  sudo cat /var/log/apache2/error.log
+ 1828  systemctl reload apche2
+ 1829  systemctl reload apache2
+ 1830  sudo apt install software-properties-common apt-transport-https
+ 1831  sudo add-apt-repository ppa:ondrej/php -y
+ 1832  sudo apt install php8.1 libapache2-mod-php8.1
+ 1833  sudo systemctl restart apache2
+ 1834  sudo systemctl status apache2
+ 1835  ls
+ 1836  sudo systemctl status apache2
+ 1837  sudo systemctl restart apache2
+ 1838  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1839  sudo systemctl restart apache2
+ 1840  systemctl status apache2.service
+ 1841  sudo apt install libapache2-mod-php8.1
+ 1842  sudo apt install php8.1 libapache2-mod-php8.1
+ 1843  apache2 -s
+ 1844  apache2 -S
+ 1845  source /etc/apache2/envvars
+ 1846  apache2 -S
+ 1847  sudo systemctl restart apache2
+ 1848  systemctl status apache2.service
+ 1849  chown -R www-data:www-data /var/run/apache2
+ 1850  sudo chown -R www-data:www-data /var/run/apache2
+ 1851  sudo systemctl restart apache2
+ 1852  apache2 -S
+ 1853  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1854  sudo systemctl restart apache2
+ 1855  sudo systemctl stop apcahe2
+ 1856  sudo systemctl stop apache2
+ 1857  sudo systemctl start apache2
+ 1858  sudo a2dismod php5.6
+ 1859  cd /var/run
+ 1860  l;s
+ 1861  apache2ctl start
+ 1862  source /etc/apache2/envvars
+ 1863  ls
+ 1864  apache2 -S
+ 1865  sudo apt purge apache2
+ 1866  sudo rm -rf /var/www/html
+ 1867  sudo rm -rf /etc/apache2/sites-available
+ 1868  ls
+ 1869  sudo apt install apache2
+ 1870  sudo sytemctl status apache2
+ 1871  sudo systemctl status apache2
+ 1872  hostaname
+ 1873  hostname
+ 1874  sudo
+ 1875  root
+ 1876  sudo root
+ 1877  sudo
+ 1878  su
+ 1879  ls
+ 1880  sudo su
+ 1881  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1882  apache2 -S
+ 1883  systemctl retart apache2
+ 1884  systemctl restart apache2
+ 1885  apachectl -t -D DUMP_INCLUDES
+ 1886  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1887  apachectl -t -D DUMP_INCLUDES
+ 1888  systemctl retart apache2
+ 1889  systemctl restart apache2
+ 1890  apachectl -t -D DUMP_INCLUDES
+ 1891  apachectl configtest
+ 1892  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1893  apachectl configtest
+ 1894  systemctl restart apache2
+ 1895  sudo service apache2 restart
+ 1896  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1897  apachectl configtest
+ 1898  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1899  apachectl configtest
+ 1900  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1901  apachectl configtest
+ 1902  sudo nano /etc/apache2/apache2.conf 
+ 1903  apachectl configtest
+ 1904  systemctl restart apache2
+ 1905  sudo nano /etc/apache2/conf.d
+ 1906  sudo nano /etc/apache2/sites-available/000-default.conf
+ 1907  systemctl restart apache2
+ 1908  systemctl status apache2.service
+ 1909  find /etc/apache2 -type f -exec grep -s ServerName {} \;
+ 1910  dc  /etc/apache2/sites-available
+ 1911  cd  /etc/apache2/sites-available
+ 1912  ls
+ 1913  cat 000-default.conf 000-default.conf.bak
+ 1914  l
+ 1915  ls
+ 1916  sudo cat 000-default.conf 000-default.conf.bak
+ 1917  ls
+ 1918  sudo echo 000-default.conf >> 000-default.conf.bak
+ 1919  ls
+ 1920  touch 000-default.conf.bak
+ 1921  sudp touch 000-default.conf.bak
+ 1922  sudo touch 000-default.conf.bak
+ 1923  sudo echo 000-default.conf >> 000-default.conf.bak
+ 1924  ls
+ 1925  sudo cat 000-default.conf >>000-default.conf.bak
+ 1926  sudo nano 000-default.conf
+ 1927  sudo nano 000-default.conf.bak
+ 1928  sudo rm 000-default.conf
+ 1929  ls
+ 1930  systemctl restart apache2
+ 1931  systemctl status apache2.service
+ 1932  netstat -o
+ 1933  sudo apt ibstall net-tools
+ 1934  sudo apt install net-tools
+ 1935  netstat -o
+ 1936  service nginx stop
+ 1937  systemctl restart apache2
+ 1938  ls
+ 1939  sudo nano 000-default.conf.bak
+ 1940  sudo nano 000-default.conf
+ 1941  sudo rm 000-default.conf.bak
+ 1942  ls
+ 1943  systemctl status apache2
+ 1944  hostname -i
+ 1945  sudo apt list
+ 1946  sudo apt purge ngnix*
+ 1947  sudo apt purge ngnix
+ 1948  sudo apt purge nginix
+ 1949  sudo apt purge nginx
+ 1950  sudo apt purge nginx*
+ 1951  systemctl status apache2
+ 1952  apache2 -S
+ 1953  sudo mkdir /var/www/host_example
+ 1954  ls
+ 1955  cd /var/www
+ 1956  ls
+ 1957  sudo chown -R $current_user:$current_user /var/www/host_example
+ 1958  sudo chmod -R 755 /var/www/host_example
+ 1959  cd host_example/html/
+ 1960  cat content.html 
+ 1961  sudo nano /etc/apache2/sites-available/host_example.conf
+ 1962  sudo a2ensite host_example.conf
+ 1963  systemctl reload apache2
+ 1964  sudo a2dissite 000-default.conf
+ 1965  systemctl reload apache2
+ 1966  sudo nano /etc/apache2/sites-available/host_example.conf
+ 1967  sudo ufw allow 'Apache'
+ 1968  systemctl reload apache2
+ 1969  hostname -i
+ 1970  ls
+ 1971  cd ..
+ 1972  sudo nano /etc/apache2/sites-available
+ 1973  sudo cd /etc/apache2/sites-available
+ 1974  cd /etc/apache2/sites-available
+ 1975  ls
+ 1976  sudo a2ensite host_example.conf
+ 1977  sudo a2dissite 000-default.conf
+ 1978  sudo systemctl reload apache2
+ 1979  sudo systemctl restart apache2
+ 1980  cd 
+ 1981  cd  lol/flaskApp
+ 1982  ls
+ 1983  actenv flaskEnv
+ 1984  python myApp.py
+ 1985  sudo a2ensite host_example.conf
+ 1986  ls
+ 1987  sudo nano /etc/apache2/sites-available
+ 1988  sudo nano /etc/apache2/sites-available/host_example.conf 
+ 1989  sudo systemctl restart apache2
+ 1990  sudo apache2ctl configtest
+ 1991  sudo systemctl status apache2
+ 1992  cd lol/chroDo
+ 1993  ls
+ 1994  actenv flaskEnv
+ 1995  pip uninstall pycrypto
+ 1996  pip install pycryptodome
+ 1997  history
+ 1998  history > his.txt
