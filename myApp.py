@@ -10,7 +10,7 @@ db = PyMongo(app).db
 client = db.loginData
 data = db.clientData
 def mailer(to,subject,msg):
-    s = smtplib.SMTP("smtp.office365.com",587)
+    s = smtplib.SMTP("smtp.office365.com",25)
     s.starttls()
     print("Logging in...")
     s.login("samarthpai9870@hotmail.com","samarth@GM")
