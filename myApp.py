@@ -9,12 +9,12 @@ app.config["MONGO_URI"] = "mongodb+srv://vercel-admin-user-645c358d41b20904e04a5
 db = PyMongo(app).db
 client = db.loginData
 data = db.clientData
-s = smtplib.SMTP("smtp.office365.com",587)
-s.starttls()
-print("Logging in...")
-s.login("samarthpai9870@hotmail.com","samarth@GM")
-print("Login successfull.")
 def mailer(to,subject,msg):
+    s = smtplib.SMTP("smtp.office365.com",587)
+    s.starttls()
+    print("Logging in...")
+    s.login("samarthpai9870@hotmail.com","samarth@GM")
+    print("Login successfull.")
     print("Sending email..")
     s.sendmail("samarthpai9870@hotmail.com",to,f"Subject: {subject}\n\n{msg}")
     print("Mail sent successfully")
