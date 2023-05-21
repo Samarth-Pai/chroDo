@@ -1,19 +1,21 @@
 from flask import Flask,render_template,request,session,url_for,redirect
 from flask_pymongo import PyMongo,ObjectId
-import smtplib,random
+import smtplib,random,os
 from datetime import timedelta
-
+from dotenv import load_dotenv
+load_dotenv()
+print(os.getenv("MONGODB_STR"))
 app = Flask(__name__)
 app.secret_key = "samarth@GM"
-app.config["MONGO_URI"] = "mongodb+srv://vercel-admin-user-645c358d41b20904e04a539c:B8EKw7G6Drh9GRuG@cluster0.abe4k8u.mongodb.net/chroDo?retryWrites=true&w=majority"
+app.config["MONGO_URI"] = os.environ.get("MONGODB_STR")
 db = PyMongo(app).db
 client = db.loginData
 data = db.clientData
 def mailer(to,subject,msg):
-    s = smtplib.SMTP("smtp.office365.com",25)
+    s = smtplib.SMTP("smtp.office365.com",port=587)
     s.starttls()
     print("Logging in...")
-    s.login("samarthpai9870@hotmail.com","samarth@GM")
+    s.login("samarthpai9870@hotmail.com",os.environ.get("SMTP_PASSW"))
     print("Login successfull.")
     print("Sending email..")
     s.sendmail("samarthpai9870@hotmail.com",to,f"Subject: {subject}\n\n{msg}")
