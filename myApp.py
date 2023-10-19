@@ -87,18 +87,24 @@ def homeSignup():
                 mailer(userEmail,"chroDo signup verification",f"Your OTP for chroDo web application is {signupPin}")
                 return render_template("signupVer.html",userEmail=userEmail)
         else:
-            if not request.form.get("userOtp").isdigit():
-                return render_template("signupVerErr.html",userEmail=userEmail)
-            elif not signupPin==int(request.form.get("userOtp")):
-                return render_template("signupVerErr.html",userEmail=userEmail)
-            else:
-                client.insert_one({
-                    "name":userName,
-                    "email":userEmail,
-                    "password":userPassword
-                })
-                session["email"]=userEmail
-                return redirect(url_for("homePage"))
+            try:
+                if not request.form.get("userOtp").isdigit():
+                    return render_template("signupVerErr.html",userEmail=userEmail)
+                elif not signupPin==int(request.form.get("userOtp")):
+                    return render_template("signupVerErr.html",userEmail=userEmail)
+                else:
+                    client.insert_one({
+                        "name":userName,
+                        "email":userEmail,
+                        "password":userPassword
+                    })
+                    session["email"]=userEmail
+                    return redirect(url_for("homePage"))
+            except:
+                print(request.form)
+                signupPin = random.randrange(100000,999999)
+                mailer(userEmail,"chroDo signup verification",f"Your OTP for chroDo web application is {signupPin}")
+                return render_template("signupVer.html",userEmail=userEmail)
     else:
         verificationMode= False
         signupPin=0
