@@ -2,6 +2,8 @@ from flask import Flask,render_template,request,session,url_for,redirect
 from flask_pymongo import PyMongo,ObjectId
 import smtplib,random,os
 from datetime import timedelta
+from dotenv import load_dotenv
+load_dotenv()
 print(os.getenv("MONGODB_STR"))
 app = Flask(__name__)
 app.secret_key = "samarth@GM"
