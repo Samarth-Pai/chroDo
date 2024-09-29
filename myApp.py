@@ -6,21 +6,22 @@ from dotenv import load_dotenv
 load_dotenv()
 print(os.getenv("MONGODB_STR"))
 app = Flask(__name__)
-app.secret_key = "samarth@GM"
+app.secret_key = os.environ.get("APP_SECRET_KEY")
 app.config["MONGO_URI"] = os.environ.get("MONGODB_STR")
 db = PyMongo(app).db
 client = db.loginData
 data = db.clientData
 def mailer(to,subject,msg):
-    s = smtplib.SMTP("smtp.office365.com",port=587)
-    s.starttls()
-    print("Logging in...")
-    s.login("samarthpai9870@hotmail.com",os.environ.get("SMTP_PASSW"))
-    print("Login successfull.")
-    print("Sending email..")
-    s.sendmail("samarthpai9870@hotmail.com",to,f"Subject: {subject}\n\n{msg}")
-    print("Mail sent successfully")
-    s.quit()
+    sender = os.getenv("EMAIL_SENDER")
+    mailserver = os.getenv("EMAIL_SERVER")
+    with smtplib.SMTP(mailserver, 587) as s:
+        s.starttls()
+        print("Logging in...")
+        s.login(sender, os.getenv("SMTP_PASSW"))
+        print("Login successfull.")
+        print("Sending email..")
+        s.sendmail(sender,to,f"Subject: {subject}\nTo: {to}\nFrom: {sender}\n\n{msg}")
+        print("Mail sent successfully")
 
 @app.route("/",methods=["GET","POST"])
 def homePage():
