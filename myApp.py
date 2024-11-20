@@ -1,6 +1,6 @@
 from flask import Flask,render_template,request,session,url_for,redirect
 from flask_pymongo import PyMongo,ObjectId
-import smtplib,random,os
+import aiosmtplib,random,os,asyncio
 from datetime import timedelta
 from dotenv import load_dotenv
 load_dotenv()
@@ -11,17 +11,20 @@ app.config["MONGO_URI"] = os.environ.get("MONGODB_STR")
 db = PyMongo(app).db
 client = db.loginData
 data = db.clientData
-def mailer(to,subject,msg):
+async def mailer(to,subject,msg):
     sender = os.getenv("EMAIL_SENDER")
     mailserver = os.getenv("EMAIL_SERVER")
-    with smtplib.SMTP(mailserver, 587) as s:
-        s.starttls()
-        print("Logging in...")
-        s.login(sender, os.getenv("SMTP_PASSW"))
-        print("Login successfull.")
-        print("Sending email..")
-        s.sendmail(sender,to,f"Subject: {subject}\nTo: {to}\nFrom: {sender}\n\n{msg}")
-        print("Mail sent successfully")
+    s = aiosmtplib.SMTP(hostname=mailserver, port=587)
+    await s.connect()
+    print("Logging in...")
+    await s.login(sender, os.getenv("SMTP_PASSW"))
+    print("Login successfull.")
+    print("Sending email..")
+    await s.sendmail(sender,to,f"Subject: {subject}\nTo: {to}\nFrom: {sender}\n\n{msg}")
+    print("Mail sent successfully")
+    
+async def mailDriver(to, subject, msg):
+    await mailer(to, subject, msg)
 
 @app.route("/",methods=["GET","POST"])
 def homePage():
@@ -85,7 +88,7 @@ def homeSignup():
             else:
                 verificationMode=True
                 signupPin = random.randrange(100000,999999)
-                mailer(userEmail,"chroDo signup verification",f"Your OTP for chroDo web application is {signupPin}")
+                asyncio.run(mailDriver(userEmail,"chroDo signup verification",f"Your OTP for chroDo web application is {signupPin}"))
                 return render_template("signupVer.html",userEmail=userEmail)
         else:
             try:
@@ -104,7 +107,7 @@ def homeSignup():
             except:
                 print(request.form)
                 signupPin = random.randrange(100000,999999)
-                mailer(userEmail,"chroDo signup verification",f"Your OTP for chroDo web application is {signupPin}")
+                asyncio.run(mailDriver(userEmail,"chroDo signup verification",f"Your OTP for chroDo web application is {signupPin}"))
                 return render_template("signupVer.html",userEmail=userEmail)
     else:
         verificationMode= False
